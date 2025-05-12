@@ -3,37 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Simple Text Page</title>
+  <title>Custom Fonts Page</title>
+
+  <!-- Import fonts from your provided CSS -->
   <link rel="stylesheet" href="https://cdn-preprod.fonts.net/kit-pp/9b690f9b-a4b0-4338-a88a-9c328f024ee9/9b690f9b-a4b0-4338-a88a-9c328f024ee9.css" />
+
   <style>
     body {
       margin: 2rem;
-      font-family: sans-serif;
+      font-family: 'CarminaMdBT', serif;
+      color: #222;
       line-height: 1.6;
-      color: #333;
     }
     h1 {
-      font-size: 2rem;
+      font-family: 'AvenirLTPro', sans-serif;
+      font-weight: 700;
+      font-size: 2.5rem;
       margin-bottom: 1rem;
     }
+    h2 {
+      font-family: 'Recoleta', serif;
+      font-weight: 100;
+      font-size: 1.8rem;
+      margin-top: 2rem;
+    }
     p {
+      font-family: 'CarminaLtBT', serif;
+      font-weight: 300;
       max-width: 700px;
+    }
+    em {
+      font-style: italic;
+      font-family: 'CarminaMdBT', serif;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to My Simple Page</h1>
+  <h1>Welcome to the Custom Fonts Page</h1>
   <p>
-    This is a basic single-page HTML site using an external font stylesheet.
-    The purpose of this page is simply to display some clean text styled by the
-    provided CSS. You can replace this content with anything you'd like.
+    This page demonstrates the use of multiple custom fonts loaded from a hosted CSS file.
+    The primary body text uses <strong>CarminaLtBT</strong>, while headings use <strong>AvenirLTPro</strong> and <strong>Recoleta</strong>.
   </p>
+
+  <h2>Typography Example</h2>
   <p>
-    The font used on this page is provided via a link to a hosted stylesheet.
-    This allows consistent typography without embedding fonts locally.
-  </p>
-  <p>
-    Thank you for visiting. Feel free to inspect the code or customize this page for your needs.
+    Typography is a key element in good design. Using a consistent and unique font family helps shape the identity of your content.
+    Here is an <em>italicized text</em> using a different font weight and style.
   </p>
 </body>
 </html>
